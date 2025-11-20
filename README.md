@@ -7,17 +7,17 @@ Healthcare Insurance Charge Analysis is a comprehensive data analysis tool desig
 
 ## Dataset Content
 * This dataset captures details on personal attributes such as age, gender, BMI, family size and smoking habits as well as geographic factors and their influence on medical insurance charges. 
-It can be used to analyze how these attributes affect medical insurance costs and for building predictive models to estimate healthcare expenses.
+It can be used to analyze how these attributes impact medical insurance costs and to build predictive models to estimate healthcare expenses.
 
 
 ## Business Requirements
-The business requires a predictive model to estimate insurance charges based on customer demographics (age, sex, region) and lifestyle factors (smoker). Since categorical variables cannot be directly used by most models, they must be transformed into numerical format using one-hot encoding. Additionally, visualizations of the encoded features are required to understand category distributions and their impact on charges, enabling data-driven decisions in pricing strategy, risk assessment, and market targeting.
+The business requires a predictive model to estimate insurance charges based on customer demographics (age, sex, region) and lifestyle factors (smoker). Since categorical variables cannot be directly used by most models, they must be transformed into a numerical format using one-hot encoding. Additionally, visualizations of the encoded features are required to understand category distributions and their impact on charges, enabling data-driven decisions in pricing strategy, risk assessment, and market targeting.
 
 * Customer Segmentation
 
-    * Distribution plot shows how customers are spread across sex, smoker, region.
+    * The distribution plot shows how customers are spread across sex, smoker, and region.
 
-    * Helps insurers identify under/over-represented groups.
+    * Helps insurers identify under-/over-represented groups.
 
 * Risk Assessment
 
@@ -79,7 +79,7 @@ Kanban board at: https://github.com/users/ka-kwok/projects/7/views/1
     Data Processing Cleaned missing/inconsistent values, standardized data types, and engineered features such as one-hot encoding, log charges, BMI categories and comorbidity flags. 
 
     * **Analysis
-    Analysis EDA with descriptive statistics and visualizations to explore distributions, trends, and outliers. Statistical Tests: Independent t tests for two group comparisons (e.g., smoker vs. non smoker) and one way ANOVA for multi group comparisons (e.g., BMI categories, regions). Predictive Modeling: Multiple linear regression to estimate charges based on demographic and lifestyle factors. 
+    Analysis EDA with descriptive statistics and visualizations to explore distributions, trends, and outliers. Statistical Tests: Independent t tests for two-group comparisons (e.g., smoker vs. non-smoker) and one-way ANOVA for multi-group comparisons (e.g., BMI categories, regions). Predictive Modeling: Multiple linear regression to estimate charges based on demographic and lifestyle factors. 
 
     * **Interpretation
     Interpretation Identified significant factors influencing charges, validated hypotheses with p values, and evaluated model performance using R² and RMSE.
@@ -138,18 +138,18 @@ Link: https://public.tableau.com/app/profile/mark.aamodt.leeper/viz/Hackathon2Te
 * Seaborn
 * Plotly
 * Scipy
-* Sklearn
+* scikit-learn
 * Tableau
 
 
 ## Credits 
 
-* We credit the Code Institute LMS platform for code refrences as well as Open AI's Chat gpt for refrences and error handling.
+* We credit the Code Institute LMS platform for code references, as well as OpenAI's ChatGPT for references and error handling.
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was taken from the Wikipedia Article A
+- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
@@ -159,4 +159,4 @@ Link: https://public.tableau.com/app/profile/mark.aamodt.leeper/viz/Hackathon2Te
 
 
 ## Acknowledgements (optional)
-* We will like to thank of members of our team, Dennis Kwok, Mark Aamodt-Leeper, Jeff Ozule and Jena (who unfortunately had a to leave due to other academic commitments). We will also like to thank the Code Institute team inculding Vasi, Mark and Niel who have been of great help in our quest for knowledge in Data Analytics. 
+* We would like to thank the members of our team, Dennis Kwok, Mark Aamodt-Leeper, Jeff Ozule and Jena (who unfortunately had to leave due to other academic commitments). We will also like to thank the Code Institute team including Vasi, Mark and Niel, who have been of great help in our quest for knowledge in Data Analytics. 
